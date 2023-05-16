@@ -41,7 +41,9 @@ function App() {
         <Cards/>
 
         <p className='text7'>No guardamos tu información <br></br> personal. Y nunca lo haremos.</p>
-        <p className='text8'>Nuestra política de privacidad es simple: No colectamos <br></br> o compartimos ninguna información personal tuya.</p>
+        <p className='text8'>Nuestra política de privacidad es simple: No colectamos
+        <br></br> o compartimos ninguna información personal tuya.
+        </p>
         <ButtonInstall/>
         <img src="/bottom.svg" className='bottom'></img>
       </div>

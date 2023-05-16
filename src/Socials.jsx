@@ -1,5 +1,5 @@
 import './Socials.css'
-import React from 'react'
+import PropTypes from 'prop-types'
 
 const Social = ({link, name, url}) =>{
     return(
@@ -8,6 +8,12 @@ const Social = ({link, name, url}) =>{
             <p className='name'>{name}</p>
         </a>
     )
+}
+
+Social.propTypes = {
+    link: PropTypes.string,
+    url: PropTypes.string,
+    name: PropTypes.string
 }
 
 const Socials = () =>{

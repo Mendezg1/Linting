@@ -1,5 +1,5 @@
-import React from "react";
-import "./Cards.css";
+import "./Cards.css"
+import PropTypes from 'prop-types'
 
 const Card = ({path, title, text}) =>{
     return(
@@ -11,23 +11,35 @@ const Card = ({path, title, text}) =>{
     )
 }
 
+Card.propTypes = {
+    path : PropTypes.string,
+    title : PropTypes.string,
+    text : PropTypes.string
+}
+
 const Cards = () =>{
     return(
         <div className="cards">
             <Card
                 path="https://duckduckgo.com/assets/add-to-browser/cppm/laptop.svg"
                 title="Extensión de Navegador Privada"
-                text="Navega como siempre y nosotros nos encargamos del resto. Te ofrecemos buscador, bloqueador de rastreadores y mejora de encriptación todo en una descarga, para los principales navegadores."
+                text="Navega como siempre y nosotros nos encargamos del resto. 
+                Te ofrecemos buscador, bloqueador de rastreadores y mejora de 
+                encriptación todo en una descarga, para los principales navegadores."
             />
             <Card
                 path="/searchi.svg"
                 title="Motor de Búsqueda Privada"
-                text="Busca de forma privada con nuestra app o extensión, añade búsqueda web privada a tu navegador preferido o busca en duckduckgo.com."
+                text="Busca de forma privada con nuestra app o extensión, 
+                añade búsqueda web privada a tu navegador preferido o busca 
+                en duckduckgo.com."
             />
             <Card
                 path="/mobile.svg"
                 title="Navegador Privado"
-                text="Nuestro navegador privado para móviles viene equipado con nuestro motor de búsqueda, bloqueador de rastreadores, mejora de encriptación y más. Disponible para iOS y Android."
+                text="Nuestro navegador privado para móviles viene equipado 
+                con nuestro motor de búsqueda, bloqueador de rastreadores, mejora 
+                de encriptación y más. Disponible para iOS y Android."
             />
         </div>
     )
