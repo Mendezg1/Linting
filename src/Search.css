@@ -30,7 +30,7 @@
     height: 100%;
     background-color: #333333;
     border-color: transparent;
-    background-image: url("search.svg");
+    background-image: url("/search.svg");
     background-size: 25px 25px;
     background-repeat: no-repeat;
     cursor: pointer;

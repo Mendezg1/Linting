@@ -10,7 +10,7 @@
 }
 
 .socials{
-    background-image: url("menu1.PNG");
+    background-image: url("/menu1.PNG");
     width: 80px;
     height: 40px;
     border-color: transparent;
@@ -25,7 +25,7 @@
 }
 
 .side{
-    background-image: url("menu2.PNG");
+    background-image: url("/menu2.PNG");
     width: 40px;
     height: 40px;
     border-color: transparent;
