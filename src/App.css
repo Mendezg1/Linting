@@ -1,42 +1,113 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+
+body{
+  overflow-x: hidden;
+}
+
+.logo{
+  width: 115px;
+  height: 115px;
+  position: absolute;
+  top: 75px;
+  left: 680px;
+}
+
+.title{
+  font-family: 'Mulish', sans-serif;
+  font-size: 35px;  
+  position: absolute;
+  top: 165px;
+  left: 630px;
+}
+
+.text2{
+  font-family: 'Wix Madefor Text', sans-serif;
+  position: absolute;
+  left: 375px;
+  top: 320px;
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-size: 30px;
+  color: #ffff;
+}
+
+.text3{
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  left: 505px;
+  top: 385px;
+  color: #ffff;
+}
+
+.text4{
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  left: 610px;
+  top: 415px;
+  color: #ffff;
+}
+
+.text5{
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 12px;
+  position: absolute;
+  left: 545px;
+  top: 520px;
+  color: #ffff;
+}
+
+.text6{
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 16px;
+  position: absolute;
+  left: 545px;
+  top: 580px;
+  color: #ffff;
+}
+
+.text7{
+  font-family: 'Wix Madefor Text', sans-serif;
+  position: absolute;
+  left: 440px;
+  top: 1100px;
+  font-family: 'Wix Madefor Display', sans-serif;
+  font-size: 40px;
+  color: #ffff;
+}
+
+.text8{
   text-align: center;
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  left: 495px;
+  top: 1250px;
+  color: #ffff;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.curva {
+  width: 2700px;
+  height: 1056px;
+  border-radius: 50rem 50rem 0 0;
+  background-color: #58B792;
+  position: absolute;
+  top: 740px;
+  left: -600px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom{
+  width: 820px;
+  height: 500px;
+  position: absolute;
+  left: 345px;
+  top: 1297px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.sidebar{
+  height: 100%;
+  width: 300px;
+  background-color: #58B792;
 }

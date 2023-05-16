@@ -1,0 +1,42 @@
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: absolute;
+    top: 25px;
+    left: 88%;
+}
+
+.socials{
+    background-image: url("menu1.PNG");
+    width: 80px;
+    height: 40px;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #1C1C1C;
+    cursor: pointer;
+}
+
+.socials:hover{
+    background-color: #282828;
+}
+
+.side{
+    background-image: url("menu2.PNG");
+    width: 40px;
+    height: 40px;
+    border-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #1C1C1C;
+    cursor: pointer;
+}
+
+.side:hover{
+    background-color: #282828;
+}
+
+

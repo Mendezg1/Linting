@@ -1,0 +1,38 @@
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: absolute;
+    top: 650px;
+    left: 230px;
+}
+
+.card{
+    margin: 10px;
+    width: 300px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.icard{
+    padding-top: 40px;
+    height: 70px;
+    width: 100px;
+    margin-left: 100px;
+}
+
+.c_text{
+    margin: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.c_title{
+    margin: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}

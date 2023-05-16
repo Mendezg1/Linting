@@ -1,0 +1,12 @@
+.install{
+    border-radius: 12px;
+    border-color: transparent;
+    background-color: #356E58;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 625px;
+    top: 1355px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
